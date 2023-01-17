@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIA'S CABINS</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script src="../js/contact.js" defer></script>
+</head>
+<body>
+    <!-------- header -------->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="../Photos/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-circle-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Pages/about.html">About us</a></li>
+                <li><a href="../Pages/galery.html">Photo galery</a></li>
+                <li><a href="../Pages/contact.html">Contact us</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+
+    <div class="container">
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <h3>Get in touch</h3>
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Email id" required>
+            <input type="text" id="phone" placeholder="Phone number" required>
+            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <!-- --- Footer ----->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Quasi, autem repellendus nulla sapiente doloremque tempore animi nihil totam quos! <br>
+             dolore quam incidunt dicta. 
+            Distinctio perspiciatis sed molestias possimus est.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+    </section>
+    
+    
+</body>
+</html>
