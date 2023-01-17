@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIA'S CABINS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <!-------- header -------->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./Photos/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-circle-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./Pages/about.html">About us</a></li>
+                <li><a href="./Pages/galery.html">Photo galery</a></li>
+                <li><a href=".//Pages/contact.html">Contact us</a></li>
+                <li><time id="time"></time></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Mia's cabins<br>wishes you</h1>
+            <p>
+                <span id="greeting"></span><br>
+                <span>Welcome to our page!</span>
+            </p>
+            <a href="" class="hero-btn">Visit us for a relaxing day in the middle of the nature</a>
+        </div>
+    </section>
+    <!-------- offer -------->
+    <section class="offer">
+        <h1>What we offer</h1>
+        <p>This is some text about what we offer to our clients.</p>
+        <div class="row">
+            <div class="forClients">
+                <h3>Hosting</h3>
+                <p>For the accommodation of our clients, we have available two A frame cabins.</p>
+            </div>
+            <div class="forClients">
+                <h3>Foods</h3>
+                <p>Breakfast is included in the package.<br>At your choice, you can order something at local restaurants.</p>
+            </div>
+            <div class="forClients">
+                <h3>Drinks</h3>
+                <p>A bottle of water is included, and for each member, a soda drink or a beer.</p>
+            </div>
+        </div>
+    </section>
+    <!-------- hosting -------->
+    <section class="hosting">
+        <h1>Our cabins</h1>
+        <p>If you are staying with us</p>
+
+        <div class="row">
+            <div class="hosting-col">
+                <img src="./Photos/front_view.jpg">
+                <div class="layer">
+                    <h3>Cabin A</h3>
+                </div>
+            </div>
+            <div class="hosting-col">
+                <img src="./Photos/rear_view.jpg">
+                <div class="layer">
+                    <h3>Cabin B</h3>
+                </div>
+            </div>
+            <div class="hosting-col">
+                <img src="./Photos/foisor.jpg">
+                <div class="layer">
+                    <h3>Foisor</h3>
+                </div>
+            </div>
+            <div class="hosting-col">
+                <img src="./Photos/lumber_food.jpg">
+                <div class="layer">
+                    <h3>Gratar</h3>
+                </div>
+            </div>
+            <div class="hosting-col">
+                <img src="./Photos/ciubar.jpg">
+                <div class="layer">
+                    <h3>Ciubar</h3>
+                </div>
+            </div>
+            <div class="hosting-col">
+                <img src="./Photos/loc_joaca.jpg">
+                <div class="layer">
+                    <h3>Soon!</h3>
+                    <p>Here we will be a place where the childrens can play.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-------- facilities -------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Text here!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./Photos/ciubar.jpg">
+                <h3>The most wanted</h3>
+                <p>HOT TUB</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./Photos/foisor.jpg">
+                <h3>ORIEL</h3>
+                <p>A nice place where to eat</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./Photos/lumber_food.jpg">
+                <h3>GRILL</h3>
+                <p>At your choice we have two grills or cauldron</p>
+            </div>
+        </div>
+    </section>
+    <!-------- testimonials -------->
+    <section class="testimonials">
+
+        <h1>What our clients say</h1>
+        <p>Some reviews from clients.</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Beatae accusamus voluptas voluptatem eaque ex quod aperiam 
+                         omnis nam officiis recusandae blanditiis, 
+                        ipsum error fugit sed corrupti soluta nostrum! Molestiae, animi.</p>
+                        <h3>Subscriber one</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Beatae accusamus voluptas voluptatem eaque ex quod aperiam 
+                         omnis nam officiis recusandae blanditiis, 
+                        ipsum error fugit sed corrupti soluta nostrum! Molestiae, animi.</p>
+                        <h3>Subscriber two</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Beatae accusamus voluptas voluptatem eaque ex quod aperiam 
+                         omnis nam officiis recusandae blanditiis, 
+                        ipsum error fugit sed corrupti soluta nostrum! Molestiae, animi.</p>
+                        <h3>Subscriber three</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- --- Call to action ----->
+    <section class="base">
+        <h1>Contact us!</h1>
+        <a href="./Pages/contact.html" class="hero-btn">Contact us</a>
+    </section>
+    <!-- --- Footer ----->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Quasi, autem repellendus nulla sapiente doloremque tempore animi nihil totam quos! <br>
+             dolore quam incidunt dicta. 
+            Distinctio perspiciatis sed molestias possimus est.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+    </section>
+    
+    
+</body>
+</html>
